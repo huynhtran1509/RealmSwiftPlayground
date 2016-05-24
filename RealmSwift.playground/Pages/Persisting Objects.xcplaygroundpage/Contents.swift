@@ -1,7 +1,6 @@
 //: [Previous](@previous)
 
 //: # Persisting Objects to a Realm
-
 import RealmSwift
 
 class Pokemon: Object {
@@ -18,7 +17,6 @@ let weedle = Pokemon(value: ["id": 13])
 let caterpie = Pokemon(value: ["id": 10])
 
 //: Realm uses write transactions
-
 try! realm.write {
     realm.add([weedle, caterpie])
 }
@@ -29,7 +27,6 @@ try! realm.write {
 // caterpie.id = 15
 
 //: Primary Keys can be used to update an object rather than create a duplicate
-
 class Trainer: Object {
     dynamic var id: Int = 0
     dynamic var name: String = ""

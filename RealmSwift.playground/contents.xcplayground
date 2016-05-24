@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw'>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='Realm Tour'/>
         <page name='Models'/>
         <page name='Relationships'/>
         <page name='Realms'/>
         <page name='Persisting Objects'/>
+        <page name='Queries'/>
+        <page name='Threads'/>
     </pages>
 </playground>

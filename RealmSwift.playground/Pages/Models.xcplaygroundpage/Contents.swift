@@ -1,7 +1,5 @@
 //: [Previous](@previous)
-
 //: # Models
-
 import RealmSwift
 
 class Pokemon: Object {
@@ -21,16 +19,13 @@ class Pokemon: Object {
  */
 
 //: ## Creation
-
 //: Models can be created by simply `init`ing them and setting properties
-
 let pikachu = Pokemon()
 pikachu.id = 25
 pikachu.type = "Eletric"
 pikachu.height = 1.04
 
 //: Or with an object representing it's value
-
 let weedle = Pokemon(value: ["id": 13, "height": 1.0, "type": "bug"])
 
 //: [Next](@next)
