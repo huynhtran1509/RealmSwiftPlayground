@@ -55,5 +55,5 @@ dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0))
  Changes can be monitored via
  - KVO on `Object`s
  - `Realm` notifications
- - Collection notifia
+ - Collection notifications
  */
